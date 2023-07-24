@@ -1,0 +1,128 @@
+@media only screen and (max-width: 1300px) {
+	section .inner,
+	#footer .ft-inner {
+		margin: 0 30px;
+	}
+}
+@media only screen and (max-width: 1225px) {
+	#sec04 .sub-sec04 .sec-txt {
+		padding-left: 100px;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	#sec01 .comment {
+		padding: 100px 0 0;
+	}
+	#sec02 .sub-sec02 {
+		top:50px;
+		flex-direction: column;
+	}
+	#sec02 .sec2,
+	#sec02 .sub-sec02 .tt{
+		width: 100%;
+		text-align: center;
+	}
+	#sec02 .sub-sec02 .tt{
+		margin-top: 30px;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	#sec03 .sec-flex{
+		flex-direction: column;
+	}
+	#sec03 .sec-flex .sec-txt {
+		text-align: center;
+	}
+	#sec03 .sub-sec03 .sec3,
+	#sec04 .sub-sec04 .sec4{
+		margin-top: 50px;
+	}
+	#sec03 .sub-sec03 .sec3 img:nth-child(2) {
+		right: auto;
+		left: 0;
+		top: 0;
+	}
+	#sec04 .sec-flex{
+		flex-direction: column-reverse;
+	}
+	#sec04 .sub-sec04 {
+		padding: 200px 0 100px;
+	}
+	#sec04 .sub-sec04 .sec4{
+		display: flex;
+		min-height: 500px;
+		justify-content: center;
+	}
+	#sec04 .sub-sec04 .sec-txt {
+		text-align: center;
+		padding-left: 0;
+	}
+	#sec04.active .sub-sec04 .sec4 img:first-child{
+		left: 0;
+		top: 180px;
+	}
+	#sec04 .sub-sec04 .sec4 img:nth-of-type(2){
+		position: static;
+	}
+	#sec04 .sub-sec04 .sec4 img:nth-of-type(3){
+		left: auto;
+		right: 0;
+		bottom: 50px;
+		top: auto;
+}
+	#sec04 .sub-sec04 .sec4 img:first-child,
+	#sec04 .sub-sec04 .sec4 img:nth-of-type(2),
+	#sec04 .sub-sec04 .sec4 img:nth-of-type(3){
+		object-fit: contain;
+		width: calc(100% /2);
+	}
+	
+}
+@media only screen and (max-width: 875px) {
+	#intro .intro-mo{
+		left: auto;
+		right: 0;
+	}
+}
+@media only screen and (max-width: 768px) {
+	#intro .intro-pc{
+		padding: 0 40px 0 20px;
+	}
+	#intro .intro-mo{
+		display: none;
+	}
+	#intro .int-inner {
+		padding: 100px 0 300px;
+	}
+	#sec01 .sec-flex {
+		padding: 200px 0 130px;
+	}
+	#sec04 .sub-sec04 {
+		padding: 150px 0 100px;
+	}
+	#sec04 .sub-sec04 .sec4 {
+		min-height: 300px;
+	}
+	#sec04.active .sub-sec04 .sec4 img:first-child {
+		left: 0;
+		top: 100px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	#intro .int-inner {
+		padding: 100px 0 200px;
+	}
+	#sec01 .sec-flex {
+		padding: 100px 0 130px;
+	}
+	#sec03 .sub-sec03 .sec3 img:nth-child(2) {
+		display: none;
+	}
+	#sec04 .sub-sec04 {
+		padding: 100px 0;
+	}
+	#sec04.active .sub-sec04 .sec4 img:first-child {
+		left: 0;
+		top: 80px;
+	}
+}

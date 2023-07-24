@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>basic :: Basic Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" >
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/font.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/media.css">
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollToPlugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@terwanerik/scrolltrigger@1.0.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+</head>
+
+<body>
+<div class="wrapper">
+	<header id="header">
+		<div class="header-inner">
+			<div class="logo"><a href="">Portfolio</a></div>
+			<div class="tab">
+				<a href="">
+					<span class="open"><img src="images/tab_open.png" alt="tab open"></span>
+					<span class="close"><img src="images/tab_close.png" alt="tab close"></span>
+				</a>
+			</div>
+		</div>
+	</header>
+	<nav id="gnb">
+		<div class="gnb-inner">
+			<ul>
+				<li><a href=""><span>HOME</span></a></li>
+				<li><a href=""><span>ABOUT ME</span></a></li>
+				<li><a href=""><span>EXPERIENCE</span></a></li>
+				<li><a href=""><span>CONTACT</span></a></li>
+			</ul>
+		</div>
+	</nav>
+	<div id="container">
+		<section id="home" class="content">
+			<div id="main-bg">
+				<div class="project-bg"><img src="images/casestudy1.png" alt="case study1"></div>
+				<div class="project-bg"><img src="images/casestudy2.png" alt="case study2"></div>
+				<div class="project-bg"><img src="images/project1.png" alt="project1"></div>
+				<div class="project-bg"><img src="images/project2.png" alt="project2"></div>
+				<div class="project-bg"><img src="images/project3.png" alt="project3"></div>
+				<div class="project-bg"><img src="images/loding.png" alt="loding2"></div>
+			</div>
+			<div id="main-ctr">
+				<div class="ctr-swiper ctr-list">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<a href="">
+								<p class="label">CASE STUDY</p>
+								<h3 class="title">W Concept</h3>
+								<p class="description">
+									<span>W Concept 사이트 리뉴얼</span>
+									<span>3week</span>
+									<span>HTML / CSS / jQuery / Figma</span>
+								</p>
+								<div class="square-line"></div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<p class="label">CASE STUDY</p>
+								<h3 class="title">Ecc plus</h3>
+								<p class="description">
+									<span>YBM ECC 사이트 리뉴얼</span>
+									<span>3week</span>
+									<span>HTML / CSS / JavaScript / Figma</span>
+								</p>
+								<div class="square-line"></div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<p class="label">PROJECT</p>
+								<h3 class="title">TOCOBO<br>RENEWAL</h3>
+								<p class="description">
+									<span>TOCOBO 사이트 리뉴얼</span>
+									<span>3week</span>
+									<span>HTML / CSS / JavaScript / SASS / Figma</span>
+								</p>
+								<div class="square-line"></div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<p class="label">PROJECT</p>
+								<h3 class="title">OLGODA<br>RENEWAL</h3>
+								<p class="description">
+									<span>OLGODA1 사이트 리뉴얼</span>
+									<span>3week</span>
+									<span>HTML / CSS / JavaScript / React / Figma</span>
+								</p>
+								<div class="square-line"></div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<p class="label">PROJECT</p>
+								<h3 class="title">GIOINFRA<br>RENEWAL</h3>
+								<p class="description">
+									<span>GIOINFRA 사이트 리뉴얼</span>
+									<span>3week</span>
+									<span>HTML / CSS / JavaScript / React / Figma</span>
+								</p>
+								<div class="square-line"></div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="javascript:void(0)">
+								<p class="label Loding-con">컨텐츠 준비중입니다.</p>
+								<div class="square-line"></div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="profile-list">
+				<ul>
+					<li><a href="" target="portfolio"><span>Download<br>Resume</span></a></li>
+					<li><a href="" target="portfolio"><i class="fa-brands fa-codepen"></i></a></li>
+					<li><a href="" target="portfolio"><i class="fa-brands fa-github"></i></a></li>
+					<li><a href="" target="portfolio"><i class="fa-brands fa-figma"></i></a></li>
+				</ul>
+			</div>
+		</section>
+		<section id="about" class="content">
+			<div class="inner">
+				<div class="headline">
+					<strong>안녕하세요. <br class="max-1100"> <span>신입 웹 개발자 <br class="max-768">장혜선</span>입니다.</strong>
+					<p>성실함과 우직함으로 끊임없이 배우고 발전하겠습니다</p>
+				</div>
+				<div class="rt-pro">
+					<h3>PROFLIE</h3>
+					<div class="pro-list">
+						<ul>
+							<li>
+								<ul>
+									<li>성명</li>
+									<li>생년월일</li>
+									<li>휴대전화</li>
+									<li>E-mail</li>
+								</ul>
+							</li>
+							<li>
+								<ul>
+									<li>장혜선 JANG HYE SUN</li>
+									<li>1996.10.18</li>
+									<li>010.8593.0393</li>
+									<li>platypus0393@gmail.com</li>
+								</ul>
+							</li>
+						</ul>
+						<div class="lf-img"><img src="images/proflie.png" alt="proflie"></div>
+					</div>
+					
+				</div>
+				<div class="rt-skill">
+					<h3>SKILL</h3>
+					<ul>
+						<li>
+							<div class="sub-title">
+								<!-- <i class="fa-brands fa-html5"></i> -->
+								<span>HTML</span>
+							</div>
+							<div class="sub-exp">
+								<p>웹 표준과 접근성을 준수하려고 노력합니다.</p>
+								<p>SEO 최적화를 위해 페이지 구조와 태그의 의미를 고려하며 마크업하기 위해 애씁니다.</p>
+							</div>
+						</li>
+						<li>
+							<div class="sub-title">
+								<!-- <i class="fa-brands fa-css3-alt"></i> -->
+								<span>SASS & CSS</span>
+							</div>
+							<div class="sub-exp">
+								<p>디자인 결과물과 흡사하게 웹에 구현해 낼 수 있으며 반응형 웹 퍼블리싱이 가능합니다.</p>
+							</div>
+						</li>
+						<li>
+							<div class="sub-title">
+								<!-- <i class="fa-brands fa-js"></i> -->
+								<span>JS</span>
+							</div>
+							<div class="sub-exp">
+								<p>기초적인 자바스크립트/제이쿼리 사용이 가능하고 라이브러리 수정이 가능합니다.</p>
+								<p>간단한 동적인 움직임을 제작할수 있으며 현재 계속 공부중입니다.</p>
+							</div>
+						</li>
+						<li>
+							<div class="sub-title">
+								<!-- <i class="fa-brands fa-github"></i> -->
+								<span>Github</span>
+							</div>
+							<div class="sub-exp">
+								<p>프로젝트를 진행할 때 소스코드 저장 및 공유하며 협업이 가능합니다.</p>
+							</div>
+						</li>
+						<li>
+							<div class="sub-title">
+								<!-- <i class="fa-brands fa-figma"></i> -->
+								<span>Figma</span>
+							</div>
+							<div class="sub-exp">
+								<p>UX/UI 디자인 및 프로토타입 제작과 관련된 디자이너와 개발자 간의 협업이 가능합니다.</p>
+							</div>
+						</li>
+						<li>
+							<div class="sub-title">
+								<!-- <i class="fa-brands fa-react"></i> -->
+								<span>React</span>
+							</div>
+							<div class="sub-exp">
+								<p>React를 활용하여 사용자 인터페이스를 구현이 가능합니다.</p>
+							</div>
+						</li>
+						<li>
+							<div class="sub-title">
+								<!-- <img src="images/JSP-icon.png" alt="JSP"> -->
+								<span>JSP</span>
+							</div>
+							<div class="sub-exp">
+								<p>Java 웹 애플리케이션을 구현, 기본적인 include와 제어문을 작성이 가능합니다.</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section id="experience" class="content">
+			<!-- <img src="images/exp-bg.png" alt="exp-bg"> -->
+			<div class="inner">
+				<div class="title"><strong>EXPERIENCE</strong></div>
+			</div>
+			<div class="exp-con">
+				<div class="exp-swiper exp-img">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="images/exp-casestudy1.png" alt="case1"></div>
+						<div class="swiper-slide"><img src="images/exp-casestudy2.png" alt="case2"></div>
+						<div class="swiper-slide"><img src="images/exp-project1.png" alt="project1"></div>
+						<div class="swiper-slide"><img src="images/exp-project2.png" alt="project2"></div>
+						<div class="swiper-slide"><img src="images/exp-project3.png" alt="project3"></div>
+					</div>
+					<div class="btn-li">
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+				<div class="exp-list">
+					<div class="slide-con">
+						<p class="slide-title slide-text-up"></p>
+					</div>
+					<div class="slide-con">
+						<p class="slide-client slide-text-up"></p>
+					</div>
+					<div class="slide-con">
+						<h3 class="slide-main-text slide-text-up">
+						필요한 기능과 UI 설계, 가독성 중점을 가지고 기획, 디자인
+						되었습니다.
+						</h3>
+					</div>
+					<div class="slide-description slide-con">
+						<a href="" class="project-li slide-text-up">
+							detail page
+						</a>
+						<a href="" class="slide-text-up">
+							link
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contact" class="content">
+			<div class="inner">
+				<div class="title"><strong>CONTACT</strong></div>
+				<p class="sub-tit">
+					<strong>Thanks for <span>reading</span></strong>
+					끝까지 읽어주셔서 감사합니다.<br> 
+					포트폴리오는 지속적으로 추가되고 변경 될 예정입니다.<br>
+					함께 소통하는 개발자 장혜선 많은 관심 부탁드립니다.:D
+				</p>
+				<div class="grayline"></div>
+				<div class="contact-txt">
+					<h2>information</h2>
+					<ul>
+						<li><i class="fa-solid fa-phone"></i><span>010-8593-0393</span></li>
+						<li><i class="fa-solid fa-envelope"></i><span>platypus0393@gmail.com</span></li>
+					</ul>
+				</div>
+			</div>
+			
+		</section>
+		<footer id="footer">
+			<div class="ft-inner">
+				<div class="ft-logo"><a href="">Portfolio</a></div>
+				<div class="ft-copy">
+
+				</div>
+				<div class="ft-profile">
+					<ul>
+						<li><a href="" target="portfolio">Download<br>Resume</a></li>
+						<li><a href="" target="portfolio"><i class="fa-brands fa-codepen"></i></a></li>
+						<li><a href="" target="portfolio"><i class="fa-brands fa-github"></i></a></li>
+						<li><a href="" target="portfolio"><i class="fa-brands fa-figma"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	
+</div>
+</body>
+</html>
